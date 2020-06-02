@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casey Wilson</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+
+    </header>
+
+    <div class="container" id="leftDisplay">
+        <img src="assets/CaseyWilson.jpg" class="item" id="headShot">
+        <div id="resume">
+            <div class="left-text-box" id="education">
+                <ul>
+                    <h5>Eleven Fifty Academy</h5>
+                    <li> .NET 24 – Week Bootcamp </li>
+                    <h5>Ivy Tech State College</h5>
+                    <li>Associate of Business</li>
+                    <li>Associate of Accounting</li>
+                    <li>Associate of Hospitality</li>
+                    <li>Certificate in Human Resources</li>
+                </ul>
+            </div>
+            <div class="item left-text-box" id="workHistory">
+                <ul>
+                    <h5>Eleven Fifty Academy</h5>
+                    <li>Learning Assistant</li>
+                    <p>Provide guidance to debug code, correct syntax errors, and expand on concepts from lecture for individuals as needed.</p>
+                    <h5>Job Corps of America</h5>
+                    <li>Technical Training Instructor</li>
+                    <p> monitored student progress through the Department of Labor’s CTS Dashboard, created all lesson plans and activities based on a structured curriculum from the DOL, and structured teambuilding activities to keep the group progressing.
+                    </p>
+                </ul>
+            </div>
+            <div class="item left-text-block" id="goals">
+
+            </div>
+        </div>
+    </div>
+    <div class="item rightDisplay">
+        <nav class="item navBar">
+            <ul class="navLinks">
+                <li>
+                    <a href="" onclick="AboutToggle()" onchange="ClearDetails()">About</a>
+                    <button onclick="AboutToggle()">Click Me</button>
+                </li>
+                <li>
+                    <!-- <a href="" onclick="ProjectsToggle()">Projects</a> -->
+                    <button onclick="ProjectsToggle()">Click Me</button>
+                </li>
+                <li>
+                    <a href="" onclick="ResumeToggle()">Resume</a>
+                </li>
+                <li>
+                    <a href="" onclick="GoalsToggle()">Goals</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="item details" id="About">
+            <h3 class="detailHeader" id="About">My Story</h3>
+            <!-- <p>
+                    About Me, About Me about me about me about me About Me, About Me about me about me about me About Me, About Me about me about me about me About Me, About Me about me about me about me About Me, About Me about me about me about me About Me, About Me about
+                    me about me about me About Me, About Me about me about me about me About Me, About Me about me about me about me About Me, About Me about me about me about me About Me, About Me about me about me about me About Me, About Me about me
+                    about me about me About Me, About Me about me about me about me About Me, About Me about me about me about me About Me, About Me about me about me about me About Me, About Me about me about me about me About Me, About Me about me about
+                    me about me About Me, About Me about me
+                </p>
+                <p>
+                    What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                </p>
+                <p>
+                    What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                </p> -->
+        </section>
+        <section class="item details" id="Projects">
+            <h3 class="detailHeader">Projects</h3>
+            <!-- <p>
+                    Projects projects projects projects projects Projects projects projects projects projects projects Projects projects projects projects projects projects Projects projects projects projects projects projects Projects projects projects projects projects
+                    projects Projects projects projects projects projects projects Projects projects projects projects projects projects Projects projects projects projects projects projects Projects projects projects projects projects projects Projects
+                    projects projects projects projects projects Projects projects projects projects projects projects Projects projects projects projects projects projects
+                </p>
+                <p>
+                    What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                </p>
+                <p>
+                    What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                </p> -->
+
+        </section>
+        <!-- <section class="details" id="Resume">
+                <h3 class="detailHeader" id="Resume">Resume</h3>
+                <p>
+                    Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume ResumeResume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume
+                    Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume Resume
+                </p>
+                <p>
+                    What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                </p>
+                <p>
+                    What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                </p>
+
+            </section>
+            <section class="details" id="Goals">
+                <h3 class="detailHeader" id="Goals">Goals</h3>
+                <p>
+                    Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals Goals
+                    Goals Goals Goals Goals Goals Goals specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                </p>
+                <p>
+                    What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                </p>
+                <p>
+                    What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                </p>
+            </section> -->
+    </div>
+
+    <!--Navigation-->
+
+    <script src="scripts.js">
+    </script>
+</body>
+
+</html>

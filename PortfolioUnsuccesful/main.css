@@ -1,0 +1,70 @@
+body {
+    height: 100%;
+    background: linear-gradient(90deg, #63628A 50%, #EDF5E1 50%);
+}
+
+
+/*#363D80*/
+
+
+/* Left Side of Screen */
+
+#headShot {
+    border-radius: .5em;
+    width: 9em;
+    height: 14em;
+}
+
+.left-text-box {
+    display: inline-block;
+    border-radius: 1em;
+    background-color: #EDF5E1;
+    width: 18em;
+    height: 20em;
+}
+
+.container#leftDisplay {
+    grid-template-rows: [row1-start] 15% [row-1-end row-2-start] 50% [row-2-end row-3-start] 30% [row-3-end row-4-start] 5% [row-4-end]
+}
+
+
+/* Right side of screen */
+
+.navBar {
+    /*text-align: center;*/
+    position: fixed;
+    /* display: inline; */
+    top: 10%;
+    right: 8.5%
+}
+
+.navLinks {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar li {
+    display: inline-block;
+    margin: 3em;
+    font-size: large;
+}
+
+.rightDisplay {
+    width: 50%;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.details {
+    margin: 22% 15% 15%;
+    /* border: solid; */
+}
+
+.detailHeader {
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 2em;
+}
